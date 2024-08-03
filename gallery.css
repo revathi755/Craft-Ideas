@@ -1,0 +1,155 @@
+/* Style for the Header section */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    border-bottom: 2px solid #0d1dff;
+}
+
+.logo-container {
+    display: inline-block;
+    justify-content: left;
+}
+
+.logo {
+    max-width: 5%;
+    height: 0.5%;
+    justify-content: left;
+}
+
+.crafting-ideas {
+    color: #4753f5;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* General styles for the gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    gap: 16px; /* Space between cards */
+    padding: 16px;
+  }
+  
+  /* Style for each card */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Style for card image */
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Style for card content */
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.25em;
+    margin: 0;
+    color: #734ff5;
+  }
+  
+  .card-description {
+    font-size: 1em;
+    color: #666;
+    margin: 8px 0 0;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 1024px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .gallery {
+      grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+  
+    .card-content {
+      padding: 8px; /* Reduce padding on small screens */
+    }
+  }
+/* Style for the footer section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-container>div {
+    margin: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-container a {
+    color: #f2f2f5;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter form input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter form button {
+    background-color: #9badf1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter form button:hover {
+    background-color: #0b17cc;
+}
+
+
+  

@@ -1,0 +1,330 @@
+/* Style for the Header section */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    border-bottom: 2px solid #0d1dff;
+}
+
+.logo-container {
+    display: inline-block;
+    justify-content: left;
+}
+
+.logo {
+    max-width: 5%;
+    height: 0.5%;
+    justify-content: left;
+}
+
+.crafting-ideas {
+    color: #4753f5;
+}
+
+.container {
+    padding: 20px;
+}
+/* Style for the footer section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-container>div {
+    margin: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-container a {
+    color: #f2f2f5;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter form input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter form button {
+    background-color: #9badf1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter form button:hover {
+    background-color: #0b17cc;
+}
+/* Style carousel images */
+.carousel-item img {
+    height: 600px;
+    /* Ensure all images are of the same height */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover entire container */
+}
+
+/* Customize carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for icons */
+}
+
+/* Customize carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    /* Adjust size of the control buttons */
+}
+
+/* Optionally center the controls horizontally */
+.carousel-control-prev,
+.carousel-control-next {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* General styles for about us */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Column styles */
+  .col-md-8 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9cc5ec;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 20px;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  #about p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .col-md-8 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    #about h2 {
+      font-size: 1.5em;
+    }
+  
+    #about p {
+      font-size: 0.9em;
+    }
+  }
+  
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+/* About Section */
+.about .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.about .content {
+    padding: 20px;
+}
+
+.about .content h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #8356eb;
+}
+
+.about .content h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: #0056b3; /* Custom color for the title */
+}
+
+.about .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about .content .btn-read-more {
+    background-color: #0056b3; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about .content .btn-read-more:hover {
+    background-color: #004494; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about .content h3 {
+        font-size: 30px;
+    }
+    
+    .about .content h2 {
+        font-size: 24px;
+    }
+    
+    .about .content p {
+        font-size: 14px;
+    }
+
+    .about img {
+        width: 100%; /* Make image full width on smaller screens */
+    }
+}
+/* Values Section Styles */
+.values .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* Section Header Styles */
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 37px;
+    color: #333; /* Main title color */
+}
+
+.section-header p {
+    font-size: 33px;
+    color: #555; /* Subtitle color */
+}
+
+/* Box Styles */
+.values .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center boxes on the row */
+}
+
+.values .box {
+    background: #bcbeee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 10px; /* Spacing between boxes */
+}
+
+.values .box:hover {
+    transform: translateY(-10px); /* Hover effect */
+}
+
+.values .box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Spacing between image and text */
+}
+
+.values .box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #681143; /* Title color */
+}
+
+.values .box p {
+    font-size: 16px;
+    color: #0b0b0b; /* Paragraph color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .values .box {
+        flex: 0 0 100%; /* Full width on small screens */
+        margin: 20px 0; /* Adjust spacing for smaller screens */
+    }
+}
