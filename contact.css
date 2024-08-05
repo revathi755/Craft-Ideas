@@ -1,38 +1,74 @@
-/* Style for the Header section */
+
+  /* General Styles */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #f8f8f8;
-    padding: 20px;
-    text-align: center;
-}
-
-.navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
     border-bottom: 2px solid #0d1dff;
-}
-
-.logo-container {
-    display: inline-block;
-    justify-content: left;
-}
-
-.logo {
-    max-width: 5%;
-    height: 0.5%;
-    justify-content: left;
-}
-
-.crafting-ideas {
-    color: #4753f5;
-}
-
-.container {
-    padding: 20px;
-}
-
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    width: 60px;
+  }
+  
+  .brand-name {
+    color: #1694cf;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #000;
+    padding: 5px 10px;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #1694cf;
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    font-weight: bold;
+    color: #0d1dff;
+  }
+  
+  .contact-btn {
+    background-color: #1694cf;
+    border: none;
+    padding: 5px 15px;
+  }
+  
+  .contact-btn .fa-phone {
+    margin-right: 8px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  
 /*contact page*/
 /* General container styling */
 .container-fluid {
